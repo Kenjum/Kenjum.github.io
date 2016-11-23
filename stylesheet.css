@@ -5,15 +5,15 @@ div{
 
 .myImage{
     margin:70px auto 0 auto;
-    width:230px;
-    height:230px;
+    width:320px;
+    height:320px;
 }
 
 #bOutline{
     position:absolute;
     display:block;
-    width:230px;
-    height:230px;
+    width:320px;
+    height:320px;
     background-color:#87edff;
     border-radius:100%;
     z-index:0;
@@ -23,9 +23,8 @@ div{
     position:relative;
     top:50%;
     left:50%;
-    transform:translate(-55%,-50%);
-    max-width:200px;
-    max-height:200px;
+    transform:translate(-53.5%,-50%);
+    max-height:290px;
     height:auto;
     width:auto;
     border-radius:100%;
