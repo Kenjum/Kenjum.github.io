@@ -52,11 +52,11 @@ body{
 }
 
 .paddedTitle{
-    padding-top:18px;
+    padding-top:2%;
 }
 
 .paddedProject{   
-    padding-top:14px;
+    padding-top:6%;
 }
 
 .aboutText{
@@ -70,7 +70,7 @@ body{
 }
 
 .project{
-    margin:70px auto;
+    margin:70px auto 30px;
     height:60px;
     width:250px;
     font-size:30px;
@@ -78,7 +78,104 @@ body{
     background-color:#4f49ff;
     font-style:italic;
     font-weight:bold;
-    box-shadow: 0px 10px 0px #2c27ad;
+    box-shadow: 0px 10px 0px #212c84;
+    
+}
+
+.tabs{
+    padding:0;
+    margin:0;
+    list-style-type: none;
+    font-size:25px;
+    font-style:italic;
+    font-weight:bold;
+}
+
+#vAlign{
+    transform:translateY(-13px);
+}
+
+.all{
+    display:inline-block;
+    font-style:italic;
+    font-weight:bold;
+    height:50px;
+    width:150px;
+    background-color:#eaeaea;
+    box-shadow: 0px 10px 0px #c6c6c6;
+}
+
+.all:hover{
+    background-color:#ffff7c;
+    box-shadow: 0px 10px 0px #bfac6d;
+}
+.all:active{
+    background-color:#ffff7c;
+    box-shadow: 0px 0px 0px #c6c6c6;
+    transform:translateY(10px);
+}
+
+.drawings{
+    font-size:25px;
+    display:inline-block;
+    font-style:italic;
+    font-weight:bold;
+    height:50px;
+    width:150px;
+    background-color:#eaeaea;
+    box-shadow: 0px 10px 0px #c6c6c6;
+}
+
+.drawings:hover{
+    background-color:#caff60;
+    box-shadow: 0px 10px 0px #84cc63;
+}
+.drawings:active{
+    background-color:#caff60;
+    box-shadow: 0px 0px 0px #c6c6c6;
+    transform:translateY(10px);
+}
+
+.animation{
+    font-size:25px;
+    display:inline-block;
+    font-style:italic;
+    font-weight:bold;
+    height:50px;
+    width:150px;
+    background-color:#eaeaea;
+    box-shadow: 0px 10px 0px #c6c6c6;
+}
+
+.animation:hover{
+    background-color:#ff4747;
+    box-shadow: 0px 10px 0px #a5664d;
+}
+.animation:active{
+    background-color:#ff4747;
+    box-shadow: 0px 0px 0px #c6c6c6;
+    transform:translateY(10px);
+}
+
+.games{
+    font-size:25px;
+    display:inline-block;
+    font-style:italic;
+    font-weight:bold;
+    height:50px;
+    width:150px;
+    background-color:#eaeaea;
+    box-shadow: 0px 10px 0px #c6c6c6;
+}
+
+.games:hover{
+    background-color:#60fcff;
+    box-shadow: 0px 10px 0px #429fce;
+}
+.games:active{
+    background-color:#60fcff;
+    box-shadow: 0px 0px 0px #c6c6c6;
+    transform:translateY(10px);
 }
 
 .end{
