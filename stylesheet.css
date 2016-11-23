@@ -1,0 +1,31 @@
+body{
+    background-color:#ffffff
+}
+div{
+    text-align:center;
+    font-family:Arial;
+}
+
+#bOutline{
+    position:relative;
+    width:315px;
+    height:315px;
+    color:#87edff;
+    border-radius:100%;
+    margin:30px auto 0 auto;
+    z-index:0;
+}
+
+#me{
+    position:relative;
+    width:300px;
+    height:300px;
+    border-radius:100%;
+    border:5px solid white;
+    z-index:1;
+}
+
+#name{
+    font-size:25px;
+}
+
