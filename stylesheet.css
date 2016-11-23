@@ -21,7 +21,7 @@ body{
     transform:translateY(4px);
 }
 
-#me{
+.me{
     margin:40px auto -20px auto;
     max-height:200px;
     height:auto;
@@ -31,14 +31,14 @@ body{
     
 }
 
-#name{
+.name{
     border-bottom: 2px dashed black;
     padding-top:9px;
     border-top: 3px solid black;
     font-size:50px;
 }
 
-#about{
+.about{
     margin:0 auto;
     color:white;
     height:220px;
@@ -49,24 +49,25 @@ body{
     box-shadow: 0px 10px 0px #1d3f7a;
 }
 
-#paddedTitle{
+.paddedTitle{
     padding-top:18px;
 }
 
-#paddedProject{   
+.paddedProject{   
     padding-top:14px;
 }
 
-#aboutText{
+.aboutText{
     font-family:Garamond,Times;
     font-style:normal;
     margin-top:-30px;
     text-align:left;
     font-size:30px;
     padding-left:50px;
+    padding-right:50px;
 }
 
-#project{
+.project{
     margin:70px auto;
     height:60px;
     width:250px;
