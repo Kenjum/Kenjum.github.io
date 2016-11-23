@@ -1,25 +1,32 @@
-body{
-    background-color:#ffffff
-}
 div{
     text-align:center;
     font-family:Arial;
 }
 
+.myImage{
+    margin:70px auto 0 auto;
+    width:220px;
+    height:220px;
+}
+
 #bOutline{
-    position:relative;
-    width:315px;
-    height:315px;
+    position:absolute;
+    width:220px;
+    height:220px;
     color:#87edff;
     border-radius:100%;
-    margin:30px auto 0 auto;
     z-index:0;
 }
 
 #me{
     position:relative;
-    width:300px;
-    height:300px;
+    top:50%;
+    left:50%;
+    transform:translate(-52.5%,-50%);
+    max-width:200px;
+    max-height:200px;
+    height:auto;
+    width:auto;
     border-radius:100%;
     border:5px solid white;
     z-index:1;
