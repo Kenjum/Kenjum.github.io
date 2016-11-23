@@ -1,17 +1,22 @@
-div{
+body{
     text-align:center;
     font-family:Arial;
 }
 
-#icon{
+.icon{
     max-height:100px;
+    opacity:0.25;
     height:auto;
     width:auto;
     position: relative;
 	display: inline-block;
 }
 
-#me{
+.icon:hover{
+    opacity:1;
+}
+
+.me{
     margin:40px auto 0 auto;
     max-height:220px;
     height:auto;
@@ -21,14 +26,30 @@ div{
     z-index:1;
 }
 
-.nameS{
-    font-size:25px;
-}
-#name{
-    border-top:3px solid black;
-    border-bottom: 3px solid black;
+.name{
+    border-bottom: 2px solid black;
+    font-size:50px;
 }
 
 .about{
-    
+    margin:0 auto;
+    color:white;
+    height:220px;
+    width:800px;
+    font-size:30px;
+    font-style:italic;
+    background-color:#3d7dcc;
+}
+
+.aboutTitle{
+    padding-top:20px;
+}
+
+.aboutText{
+    font-family:Garamond,Times;
+    font-style:normal;
+    margin-top:-30px;
+    text-align:left;
+    font-size:30px;
+    padding-left:50px;
 }
