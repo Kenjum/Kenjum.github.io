@@ -10,27 +10,35 @@ body{
     width:auto;
     position: relative;
 	display: inline-block;
+    
 }
 
 .icon:hover{
     opacity:1;
 }
 
-.me{
-    margin:40px auto 0 auto;
+.icon:active{
+    transform:translateY(4px);
+}
+
+#me{
+    margin:40px auto -20px auto;
     max-height:200px;
     height:auto;
     width:auto;
     border-radius:100%;
     z-index:1;
+    
 }
 
-.name{
+#name{
     border-bottom: 2px dashed black;
+    padding-top:9px;
+    border-top: 3px solid black;
     font-size:50px;
 }
 
-.about{
+#about{
     margin:0 auto;
     color:white;
     height:220px;
@@ -38,17 +46,38 @@ body{
     font-size:30px;
     font-style:italic;
     background-color:#3d7dcc;
+    box-shadow: 0px 10px 0px #1d3f7a;
 }
 
-.aboutTitle{
-    padding-top:20px;
+#paddedTitle{
+    padding-top:18px;
 }
 
-.aboutText{
+#paddedProject{   
+    padding-top:14px;
+}
+
+#aboutText{
     font-family:Garamond,Times;
     font-style:normal;
     margin-top:-30px;
     text-align:left;
     font-size:30px;
     padding-left:50px;
+}
+
+#project{
+    margin:70px auto;
+    height:60px;
+    width:250px;
+    font-size:30px;
+    color:white;
+    background-color:#4f49ff;
+    font-style:italic;
+    font-weight:bold;
+    box-shadow: 0px 10px 0px #2c27ad;
+}
+
+.end{
+    height:500px;
 }
