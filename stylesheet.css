@@ -3,12 +3,12 @@ div{
     font-family:Arial;
 }
 
-.links{
+#links{
     position: relative;
 	display: inline-block;
 }
 
-.icon{
+#icon{
     max-height:100px;
     max-width:100px;
     height:auto;
