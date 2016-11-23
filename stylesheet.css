@@ -23,6 +23,7 @@ body{
 
 .top{
     margin:40px auto -30px;
+    
 }
 
 .me{
@@ -178,6 +179,11 @@ body{
     transform:translateY(10px);
 }
 
+.items{
+    padding:0;
+    margin:0;
+    list-style-type: none;
+}
 .end{
     height:500px;
 }
