@@ -44,7 +44,7 @@ body{
 .about{
     margin:0 auto;
     color:white;
-    height:220px;
+    height:240px;
     width:800px;
     font-size:30px;
     font-style:italic;
@@ -65,7 +65,7 @@ body{
     font-style:normal;
     margin-top:-30px;
     text-align:left;
-    font-size:30px;
+    font-size:24px;
     padding-left:50px;
     padding-right:50px;
 }
@@ -92,11 +92,11 @@ body{
     font-weight:bold;
 }
 
-#vAlign{
+div ul p{
     transform:translateY(-13px);
 }
 
-.all{
+#all{
     display:inline-block;
     font-style:italic;
     font-weight:bold;
@@ -106,17 +106,17 @@ body{
     box-shadow: 0px 10px 0px #c6c6c6;
 }
 
-.all:hover{
+#all:hover{
     background-color:#ffff7c;
     box-shadow: 0px 10px 0px #bfac6d;
 }
-.all:active{
+#all:active{
     background-color:#ffff7c;
     box-shadow: 0px 0px 0px #c6c6c6;
     transform:translateY(10px);
 }
 
-.drawings{
+#drawings{
     font-size:25px;
     display:inline-block;
     font-style:italic;
@@ -127,17 +127,17 @@ body{
     box-shadow: 0px 10px 0px #c6c6c6;
 }
 
-.drawings:hover{
+#drawings:hover{
     background-color:#caff60;
     box-shadow: 0px 10px 0px #84cc63;
 }
-.drawings:active{
+#drawings:active{
     background-color:#caff60;
     box-shadow: 0px 0px 0px #c6c6c6;
     transform:translateY(10px);
 }
 
-.animation{
+#animation{
     font-size:25px;
     display:inline-block;
     font-style:italic;
@@ -148,17 +148,17 @@ body{
     box-shadow: 0px 10px 0px #c6c6c6;
 }
 
-.animation:hover{
+#animation:hover{
     background-color:#ff4747;
-    box-shadow: 0px 10px 0px #a5664d;
+    box-shadow: 0px 10px 0px #933f38;
 }
-.animation:active{
+#animation:active{
     background-color:#ff4747;
     box-shadow: 0px 0px 0px #c6c6c6;
     transform:translateY(10px);
 }
 
-.games{
+#games{
     font-size:25px;
     display:inline-block;
     font-style:italic;
@@ -169,21 +169,32 @@ body{
     box-shadow: 0px 10px 0px #c6c6c6;
 }
 
-.games:hover{
+#games:hover{
     background-color:#60fcff;
     box-shadow: 0px 10px 0px #429fce;
 }
-.games:active{
+#games:active{
     background-color:#60fcff;
     box-shadow: 0px 0px 0px #c6c6c6;
     transform:translateY(10px);
 }
 
+.window{
+    margin:50px auto;
+    height:650px;
+    width:850px;
+    background-color:#dddddd;
+}
+
+.box{
+    background-color:black;
+    display:inline-block;
+    height:200px;
+    width:200px;
+}
+
 .items{
-    padding:0;
+    padding:18px;
     margin:0;
     list-style-type: none;
-}
-.end{
-    height:500px;
 }
