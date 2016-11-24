@@ -1,8 +1,8 @@
 $(document).ready(main);
 
 function main(){
-    $('.tabs').on('click', function(){
-    $(this).toggleClass('none');
+    $('.all').on('click',function(event){
+    $(this).toggleClass('allActive');
 });
 
 }
