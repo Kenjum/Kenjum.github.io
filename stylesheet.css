@@ -105,12 +105,11 @@ div ul p{
     background-color:#eaeaea;
     box-shadow: 0px 10px 0px #c6c6c6;
 }
-
 .all:hover{
     background-color:#ffff7c;
     box-shadow: 0px 10px 0px #bfac6d;
 }
-.allActive{
+.all:active{
     background-color:#ffff7c;
     box-shadow: 0px 0px 0px #c6c6c6;
     transform:translateY(10px);
@@ -126,7 +125,6 @@ div ul p{
     background-color:#eaeaea;
     box-shadow: 0px 10px 0px #c6c6c6;
 }
-
 .drawings:hover{
     background-color:#caff60;
     box-shadow: 0px 10px 0px #84cc63;
@@ -147,7 +145,6 @@ div ul p{
     background-color:#eaeaea;
     box-shadow: 0px 10px 0px #c6c6c6;
 }
-
 .animation:hover{
     background-color:#ff4747;
     box-shadow: 0px 10px 0px #933f38;
@@ -168,7 +165,6 @@ div ul p{
     background-color:#eaeaea;
     box-shadow: 0px 10px 0px #c6c6c6;
 }
-
 .games:hover{
     background-color:#60fcff;
     box-shadow: 0px 10px 0px #429fce;

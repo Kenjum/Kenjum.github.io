@@ -1,9 +1,11 @@
 $(document).ready(main);
 
 function main(){
-    $('.all').on('click',function(event){
-    $(this).toggleClass('allActive');
-});
+    var all = true;
+    var drawings = false;
+    var animation = false;
+    var games = false;
 
 }
+
 
