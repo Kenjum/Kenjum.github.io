@@ -131,13 +131,19 @@ div ul p{
     height:200px;
     width:200px;
 }
-#d{
+
+.descr{
+    margin:0 auto;
+    padding-top:10px;
+    height:170px;
+    width:400px;
+    background-color:#c5d9f9;
+    border-radius:60px;
+    font-family:Arial;
+    font-size:14px;
 }
-#a{
-    
-}
-#g{
-    
+.descr p{
+    margin:0;
 }
 
 .items{

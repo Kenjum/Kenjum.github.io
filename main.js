@@ -1,3 +1,4 @@
+
 function main(){
     //Default All is on
     var ADAG = [true,false,false,false];
