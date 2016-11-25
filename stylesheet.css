@@ -124,10 +124,20 @@ div ul p{
 }
 
 .box{
-    background-color:black;
+    background-color:gray;
+    float:left;
+    margin:1px;
     display:inline-block;
     height:200px;
     width:200px;
+}
+#d{
+}
+#a{
+    
+}
+#g{
+    
 }
 
 .items{

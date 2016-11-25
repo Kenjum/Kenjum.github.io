@@ -1,4 +1,3 @@
-
 function main(){
     //Default All is on
     var ADAG = [true,false,false,false];
@@ -21,10 +20,25 @@ function main(){
     //
     
     //Mouse behaviors with media
-    
-    
-    //Media behavior with ADAG aray
-
+function showing(){
+        if(ADAG[0]==true){
+            $(".box#d").show();
+            $(".box#a").show();
+            $(".box#g").show();
+        }else if(ADAG[1]==true){
+            $(".box#d").show();
+            $(".box#a").hide();
+            $(".box#g").hide();
+        }else if(ADAG[2]==true){
+            $(".box#d").hide();
+            $(".box#a").show();
+            $(".box#g").hide();
+        }else {
+            $(".box#d").hide();
+            $(".box#a").hide();
+            $(".box#g").show();
+        }
+}
 function pick(){
     $(".button").mousedown(function(){
         if(this.id=="all"){
@@ -37,7 +51,7 @@ function pick(){
         $("#animation").removeClass("buttonON");
         $("#games").removeClass("buttonON");
         }
-        if(this.id=="drawings"){
+        else if(this.id=="drawings"){
         ADAG[0]=false;
         ADAG[1]=true;
         ADAG[2]=false;
@@ -47,7 +61,7 @@ function pick(){
         $("#animation").removeClass("buttonON");
         $("#games").removeClass("buttonON");
         }
-        if(this.id=="animation"){
+        else if(this.id=="animation"){
         ADAG[0]=false;
         ADAG[1]=false;
         ADAG[2]=true;
@@ -57,7 +71,7 @@ function pick(){
         $("#animation").addClass("buttonON");
         $("#games").removeClass("buttonON");
         }
-        if(this.id=="games"){
+        else if(this.id=="games"){
         ADAG[0]=false;
         ADAG[1]=false;
         ADAG[2]=false;
@@ -67,8 +81,10 @@ function pick(){
         $("#animation").removeClass("buttonON");
         $("#games").addClass("buttonON");
         }
+        
         $(this).removeClass("buttonON");
         $(this).addClass("buttonDown");
+        showing();
     })
 }
     
