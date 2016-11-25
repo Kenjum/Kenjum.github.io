@@ -5,7 +5,7 @@ function main(){
     //Default All is on
     $("#all").addClass("buttonON");
 
-    //Mouse Behaviors with the buttons
+    //Mouse behaviors with the buttons
     pick();
     $(".button").mouseup(function(){
         $(this).removeClass("buttonDown");
@@ -18,7 +18,12 @@ function main(){
         $(this).removeClass("buttonDown");
         checkON();
     })
-
+    //
+    
+    //Mouse behaviors with media
+    
+    
+    //Media behavior with ADAG aray
 
 function pick(){
     $(".button").mousedown(function(){

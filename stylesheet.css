@@ -97,6 +97,7 @@ div ul p{
 }
 
 .button{
+    cursor:pointer;
     display:inline-block;
     font-style:italic;
     font-weight:bold;
