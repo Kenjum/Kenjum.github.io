@@ -137,18 +137,6 @@ div ul p{
     opacity:1;
 }
 
-.descr{
-    float:left;
-    padding-top:10px;
-    height:170px;
-    width:400px;
-    font-family:Arial;
-    font-size:14px;
-}
-.descr p{
-    margin:0;
-}
-
 .items{
     padding:18px;
     margin:0;
