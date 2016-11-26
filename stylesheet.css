@@ -130,6 +130,11 @@ div ul p{
     display:inline-block;
     height:200px;
     width:200px;
+    opacity:.5
+}
+
+.select{
+    opacity:1;
 }
 
 .descr{

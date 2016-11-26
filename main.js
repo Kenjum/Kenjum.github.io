@@ -18,8 +18,11 @@ function main(){
         $(this).removeClass("buttonDown");
         checkON();
     })
-    //
     
+    // Animate over hover image
+    $(".box").hover(function(){
+            $(this).toggleClass("select");
+    });
     //Mouse behaviors with media
 function showing(){
         if(ADAG[0]==true){
