@@ -130,19 +130,19 @@ div ul p{
 
 .window{
     margin:50px auto;
-    height:650px;
-    width:850px;
+    min-height:650px;
+    max-width:850px;
+    height:auto;
+    width:auto;
     background-color:#b2b2ba;
 }
 
 .box{
     background-color:gray;
-    float:left;
-    margin:1px;
     display:inline-block;
     height:200px;
     width:200px;
-    opacity:.5
+    opacity:.75
 }
 
 .select{
