@@ -9,6 +9,7 @@ body{
 
 .column{
     background-color:white;
+    
 }
 
 .icon{
@@ -81,7 +82,7 @@ body{
 }
 
 .project{
-    margin:70px auto 30px;
+    margin:70px auto 40px;
     min-height:60px;
     max-width:250px;
     height:auto;
@@ -129,7 +130,7 @@ div ul p{
 }
 
 .window{
-    margin:50px auto;
+    margin:30px auto;
     min-height:650px;
     max-width:850px;
     height:auto;
