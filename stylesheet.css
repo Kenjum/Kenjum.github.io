@@ -52,7 +52,7 @@ body{
 }
 
 .name{
-    border-bottom: 2px dashed black;
+    border-bottom: 2px solid black;
     margin-top:0px;
     font-size:50px;
 }
