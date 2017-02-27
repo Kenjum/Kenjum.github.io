@@ -58,6 +58,7 @@ body{
     outline-style:solid;
     outline-width:1px;
     outline-color:black;
+    padding-bottom:10px;
 }
 
 .aboutText{
@@ -83,6 +84,7 @@ body{
     outline-width:1px;
     outline-color:black;
     text-align: left;
+    padding-bottom:10px;
 }
 
 .skillsText{
