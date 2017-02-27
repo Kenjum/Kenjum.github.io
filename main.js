@@ -11,9 +11,11 @@ function main(){
         $(this).removeClass("buttonDown");
         $(this).addClass("buttonON");
     }) 
+      
     $(".button").mouseover(function(){
         $(this).addClass("buttonON");
-    })    
+    })
+    
     $(".button").mouseout(function(){
         $(this).removeClass("buttonDown");
         checkON();
@@ -50,7 +52,6 @@ function pick(){
         ADAG[1]=false;
         ADAG[2]=false;
         ADAG[3]=false;
-        $("#all").addClass("buttonON");
         $("#drawings").removeClass("buttonON");
         $("#animation").removeClass("buttonON");
         $("#games").removeClass("buttonON");
@@ -61,7 +62,6 @@ function pick(){
         ADAG[2]=false;
         ADAG[3]=false;
         $("#all").removeClass("buttonON");
-        $("#drawings").addClass("buttonON");
         $("#animation").removeClass("buttonON");
         $("#games").removeClass("buttonON");
         }
@@ -72,7 +72,6 @@ function pick(){
         ADAG[3]=false;
         $("#all").removeClass("buttonON");
         $("#drawings").removeClass("buttonON");
-        $("#animation").addClass("buttonON");
         $("#games").removeClass("buttonON");
         }
         else if(this.id=="games"){
@@ -83,10 +82,8 @@ function pick(){
         $("#all").removeClass("buttonON");
         $("#drawings").removeClass("buttonON");
         $("#animation").removeClass("buttonON");
-        $("#games").addClass("buttonON");
         }
         
-        $(this).removeClass("buttonON");
         $(this).addClass("buttonDown");
         showing();
     })

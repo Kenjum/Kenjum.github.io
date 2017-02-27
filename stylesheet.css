@@ -132,7 +132,6 @@ div ul p{
     outline-width: 1px;
 }
 .buttonDown{
-    background-color:white;
     transform:translateY(3px);
 }
 .buttonON{
