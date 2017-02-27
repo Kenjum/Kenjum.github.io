@@ -48,13 +48,13 @@ body{
 
 .about{
     margin:0 auto;
-    color:white;
+    color:black;
     min-height:250px;
     max-width:800px;
     height:auto;
     width:auto;
     font-size:30px;
-    background-color:#1f7def;
+    background-color:white;
     outline-style:solid;
     outline-width:1px;
     outline-color:black;
@@ -72,13 +72,13 @@ body{
 .skills{
     
     margin:0 auto;
-    color:white;
+    color:black;
     min-height:440px;
     max-width:800px;
     height:auto;
     width:auto;
     font-size:25px;
-    background-color:#1f7def;
+    background-color:white;
     outline-style:solid;
     outline-width:1px;
     outline-color:black;
@@ -132,8 +132,8 @@ body{
     height:auto;
     width:auto;
     font-size:30px;
-    color:white;
-    background-color:#1f7def;
+    color:black;
+    background-color:white;
     font-weight:bold;
     outline-style:solid;
     outline-width:1px;
