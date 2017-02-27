@@ -4,18 +4,6 @@ body{
     background-color:white;
 }
 
-/*
-.column{
-    position:static;
-    background-color:white;
-    min-height:100px;
-    max-width:1000px;
-    height:auto;
-    width:auto;
-    margin:auto auto;
-}
-*/
-
 .space{
     height:30px;
 }
@@ -66,19 +54,10 @@ body{
     height:auto;
     width:auto;
     font-size:30px;
-    font-style:italic;
     background-color:#1f7def;
     outline-style:solid;
     outline-width:1px;
     outline-color:black;
-}
-
-.paddedTitle{
-    padding-top:10px;
-}
-
-.paddedProject{   
-    padding-top:15px;
 }
 
 .aboutText{
@@ -90,6 +69,62 @@ body{
     padding-right:50px;
 }
 
+.skills{
+    
+    margin:0 auto;
+    color:white;
+    min-height:440px;
+    max-width:800px;
+    height:auto;
+    width:auto;
+    font-size:25px;
+    background-color:#1f7def;
+    outline-style:solid;
+    outline-width:1px;
+    outline-color:black;
+    text-align: left;
+}
+
+.skillsText{
+    font-style:normal;
+    margin-top:-20px;
+    text-align:left;
+    font-size:20px;
+    padding-left:80px;
+    padding-right:50px;
+}
+
+#lvl1Header{
+    margin-top:-20px;
+    font-size:30px;
+    padding-left:20px;
+    font-weight: bold;
+}
+
+#lvl1Header2{
+    margin-top:0px;
+    font-size:30px;
+    padding-left:20px;
+    font-weight: bold;
+}
+#lvl2Header{
+    
+   padding-left:40px; 
+}
+
+.paddedTitle{
+    text-align: center;
+    padding-top:10px;
+}
+
+.paddedTitle2{
+    text-align: center;
+    padding-top:20px;
+}
+.paddedProject{   
+    padding-top:15px;
+}
+
 .project{
     margin:40px auto 0px;
     min-height:60px;
@@ -99,7 +134,6 @@ body{
     font-size:30px;
     color:white;
     background-color:#1f7def;
-    font-style:italic;
     font-weight:bold;
     outline-style:solid;
     outline-width:1px;
@@ -123,7 +157,6 @@ div ul p{
 .button{
     cursor:pointer;
     display:inline-block;
-    font-style:italic;
     font-weight:bold;
     height:50px;
     width:150px;
@@ -140,7 +173,7 @@ div ul p{
 
 .window{
     margin:30px auto;
-    min-height:650px;
+    min-height:230px;
     max-width:850px;
     height:auto;
     width:auto;
