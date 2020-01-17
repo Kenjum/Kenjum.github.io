@@ -6,6 +6,7 @@ body{
 
 .column{    
     width:1100px;
+    min-height:1720px;
     margin:auto auto;    
     position:static;
     background-color:white;
