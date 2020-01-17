@@ -136,7 +136,7 @@ body{
 }
 
 .project{
-    margin:40px auto 0px;
+    margin:auto;
     min-height:60px;
     max-width:250px;
     height:auto;
